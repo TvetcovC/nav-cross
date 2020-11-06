@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Navigation Cross</title>
+    <style>
+        body {
+            font-family: 'Manjari', sans-serif;
+            background-color: #333;
+            font-size: 18px;
+        }
+        nav {
+            width: 300px;
+            height: 344px;
+            background-color: #366ba7;
+            position: relative;
+        }
+        nav div {
+            font-size: 22px;
+            padding: 20px;
+            text-orientation: upright;
+            writing-mode: vertical-lr;
+            float: left;
+            color: #222;
+        }
+        nav ul {
+            border-left: 1px #444 solid;
+            margin-left: 62px;
+        }
+        nav ul li {
+            padding: 25px;
+            color: white;
+            border-bottom: 1px #444 solid;
+        }
+        nav ul li:hover {
+            background-color: #0c4280;
+        }
+        nav ul li:hover::after {
+            position: absolute;
+            right: 35px;
+            content: "\2B9E";
+            font-weight: 700;
+        }
+        nav ul li:last-child {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div>Our Company</div>
+        <ul>
+            <li>Services</li>
+            <li>Products</li>
+            <li>Team</li>
+            <li>Support</li>
+            <li>Contacts</li>
+        </ul>
+    </nav>
+
+</body>
+</html>
